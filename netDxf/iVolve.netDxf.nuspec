@@ -16,7 +16,7 @@
     <releaseNotes>Added support for Tag property on any entity.</releaseNotes>
     <iconUrl>https://download.ivolve.com/logos/iVolveLogo-nuget-128x128.png</iconUrl>
     <tags>DXF, AutoCAD, netDxf</tags>
-    <repository url="https://github.com/iVolveDev/custom-netdxf"/>
+    <repository type="git" url="https://github.com/iVolveDev/custom-netdxf"/>
     <dependencies>
       <group targetFramework="net45" />
       <group targetFramework="net452" />
