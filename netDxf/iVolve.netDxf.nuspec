@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>iVolve.netDxf</id>
+    <version>2.4.2.1</version>
+    <title>iVolve.netDxf.netstandard</title>
+    <authors>Daniel Carvajal,David Eagles</authors>
+    <owners>David Eagles</owners>
+	<projectUrl>https://github.com/iVolveDev/custom-netdxf</projectUrl>
+	<license type="expression">LGPL-2.1-only</license>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Daniel Carvajal's netDxf .Net library programmed in C# to read and write AutoCAD DXF files. It supports
+	AutoCad2000, AutoCad2004, AutoCad2007, AutoCad2010, AutoCad2013, and AutoCad2018 DXF database versions, in
+	both text and binary format.  This package has been modified by iVolve to add support for associating
+	arbitrary objects to each drawing entity via a new Tag property.</description>
+    <releaseNotes>Added support for Tag property on any entity.</releaseNotes>
+    <iconUrl>https://download.ivolve.com/logos/iVolveLogo-nuget-128x128.png</iconUrl>
+    <tags>DXF, AutoCAD, netDxf</tags>
+    <repository url="https://github.com/iVolveDev/custom-netdxf"/>
+    <dependencies>
+      <group targetFramework="net45" />
+      <group targetFramework="net452" />
+      <group targetFramework="net461" />
+      <group targetFramework="net471" />
+      <group targetFramework="netcoreapp2.2" />
+      <group targetFramework="netcoreapp3.0" />
+      <group targetFramework="netcoreapp3.1" />
+      <group targetFramework="netstandard2.0" />
+      <group targetFramework="netstandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netDxf.dll" target="lib\net45\netDxf.dll" />
+  </files>
+</package>
