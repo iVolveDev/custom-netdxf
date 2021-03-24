@@ -103,6 +103,11 @@ namespace netDxf.Entities
         #region public properties
 
         /// <summary>
+        /// Associates any user-supplied object with this entity
+        /// </summary>
+        public object Tag { get; set; }
+
+        /// <summary>
         /// Gets the list of DXF objects that has been attached to this entity.
         /// </summary>
         public IReadOnlyList<DxfObject> Reactors
